@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+  margin:0px;
+  padding: 0px;
+  background: url('https://image.freepik.com/free-vector/white-brick-wall-texture-background-wallpaper-graphic-web-game-realistic-seamless-pattern_278395-88.jpg');
+  background-repeat: repeat;
+  
+}
+#navbar{
+  width: 100%;
+  background-color:#29a329;
+  position: fixed;
+  
+  
+}
+#navbar .nav-list{
+  list-style-type:none;
+  text-align: center;
+}
+#navbar .nav-list li{
+  display: inline;
+  padding:10px;
+  margin: 5px;
+  background-color:;
+  
+}
+
+#navbar .nav-list li a{
+  text-decoration:none;
+  color:white;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:25px;
+  
+}
+
+#welcome-section{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+#welcome-section #fig1{
+  font-size: 100px;
+  color: #800080;
+  position:absolute;
+  right:10px;
+  width: 300px;
+  height: 200px;
+  background-color:grey;
+   z-index:-1;
+}
+#welcome-section #fig1 .fa-moon{
+  position: absolute;
+  font-size:300px;
+  margin-left:-180px;
+  margin-top:-70px;
+  
+}
+#welcome-section #fig1 .fa-robot{
+  position: absolute;
+   
+}
+
+#welcome-section h1, h2{
+  font-family: 'Rock 3D', cursive;
+  font-size:64px;
+  margin: 0px;
+}
+#welcome-section p{
+font-family: 'Ubuntu', sans-serif;
+  font-size:30px;
+}
+
+#projects{
+  display: flex;
+  flex-direction:column;
+  padding-top:90px;
+  text-align:center;
+}
+
+#projects .btn-show-all{
+  text-decoration:none;
+  font-size:25px;
+  padding: 10px;
+  background-color:grey;
+}
+#projects .btn-show-all i{
+  padding:10px;
+}
+#projects .btn-show-all:hover{
+  color:#00ffff;
+  
+}
+#projects .projects-grid{
+  display: flex;
+  flex-direction:row;
+ flex-wrap: wrap;
+  justify-content: center;
+  margin-top:40px;
+  margin-bottom:40px;
+  
+}
+#projects .projects-grid .project{
+  width: 25%;
+  height: auto;
+  margin:10px;
+  background-color:white;
+  text-decoration:none;
+  color: black;
+  text-align:center;
+}
+#projects .projects-grid .project .project-image{
+  width: 100%;
+  height: 50vh;
+}
+#projects .projects-grid .project .project-title{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:25px;
+  text-decoration:none;
+}
+
+#contact{
+  width: 100%;
+  height: 100vh;
+  text-align:center;
+  margin-top: 100px;
+  padding-top:100px;
+}
+#contact .contact-section-header p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:25px;
+}
+#contact .contact-links{
+  display: flex;
+  justify-content:center;
+  margin: 50px 10px 10px 10px;
+}
+#contact .contact-links a{
+  background-color:white;
+  font-size:25px;
+  text-decoration:none;
+  padding: 10px;
+  margin: 5px;
+  color:black;
+  border-radius:50px;
+}
+#contact .contact-links a:hover{
+  background-color:black;
+ 
+  color:white;
+  
+}
+footer{
+  width: 100%;
+  height: 100px;
+  background-color:#808080;
+  display: flex;
+  justify-content: space-around;
+}
+footer p{
+  font-family:'Ubuntu', sans-serif;
+  color:red;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
